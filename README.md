@@ -1,43 +1,24 @@
-# todo-api
+# ✅ ToDo API — Spring Boot + PostgreSQL + JWT
 
-## API de Tarefas (To-Do List)
+[![Build](https://img.shields.io/github/actions/workflow/status/adelmonsouza/todo-api/ci.yml?label=CI&logo=github)](https://github.com/adelmonsouza/todo-api/actions)
+[![Java](https://img.shields.io/badge/Java-17-red?style=flat-square&logo=java)](https://adoptium.net/)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-brightgreen?style=flat-square&logo=springboot)](https://spring.io/projects/spring-boot)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue?style=flat-square&logo=postgresql)](https://www.postgresql.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Este projeto é uma API RESTful para gerenciar uma lista de tarefas (To-Do List), desenvolvida com **Spring Boot**.  
-A API oferece funcionalidades para **criar**, **listar**, **editar** e **excluir** tarefas, com autenticação via **JWT**.
-
----
-
-## 📋 Funcionalidades
-
-- **Criar tarefas:** Permite adicionar novas tarefas com título e descrição.
-- **Listar tarefas:** Retorna uma lista de todas as tarefas registradas.
-- **Editar tarefas:** Possibilita a edição de tarefas existentes.
-- **Excluir tarefas:** Remove tarefas da lista.
-- **Autenticação JWT:** Todas as operações são protegidas com autenticação baseada em tokens JWT.
+A clean and test-first REST API to manage tasks (CRUD), secured with JWT, documented via Swagger/OpenAPI, and backed by PostgreSQL.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
-
-- **Java**: Linguagem principal.
-- **Spring Boot**: Framework utilizado para construção da API.
-- **JWT (JSON Web Token)**: Usado para autenticação e autorização.
-- **H2 Database**: Banco de dados em memória utilizado para testes.
-- **Maven**: Gerenciador de dependências.
-- **Swagger**: Documentação da API.
+## ✨ Features
+- CRUD for tasks (title, description, status, due date, priority)
+- Auth: Register/Login with JWT
+- Role-based authorization (USER/ADMIN)
+- OpenAPI/Swagger UI docs
+- Healthcheck endpoint
+- Dockerized app + PostgreSQL
+- CI with GitHub Actions
 
 ---
 
-## 🚀 Como Executar o Projeto
-
-### Pré-requisitos
-
-Certifique-se de ter instalado em sua máquina:
-- **Java 17** ou superior
-- **Maven**
-
-### Passo a passo para rodar localmente
-
-1. **Clone o repositório**
-   ```bash
-   git clone https://github.com/adelmonsouza/todo-api.git
+## 📂 Project Structure
